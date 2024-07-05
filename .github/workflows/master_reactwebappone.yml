@@ -53,4 +53,4 @@ jobs:
           app-name: 'reactwebappone'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8D036AA8535F42629EDF167BE8548BF8 }}
-          package: .
+          package: ./build
